@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "52790711822",
+    "project_id": "uneed-539f5",
+    "storage_bucket": "uneed-539f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52790711822:android:40feab10064b3bbbbd8e5f",
+        "android_client_info": {
+          "package_name": "com.example.test_uneed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52790711822-mmf3gar8avpd7vv3e0ftsvjbmbnasqgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMKX1klYdJOmhVPU7uYHXsoKYrqye-BBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52790711822-mmf3gar8avpd7vv3e0ftsvjbmbnasqgs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52790711822-30j0fq449ihum21c3o831ueuortor2qr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testUneed"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
