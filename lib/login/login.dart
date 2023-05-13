@@ -2,10 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutterfire_ui/auth.dart';
 import '/chat_screen.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: AnimatedSplashScreen(
+        splash: Image.asset('image/MU.png'),
+        nextScreen: Login(),
+        splashTransition: SplashTransition.slideTransition,
+        duration: 2000,
+      ),
+    );
+  }
+}
+
+class Login extends StatelessWidget {
+  const Login({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
