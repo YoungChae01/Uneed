@@ -43,6 +43,7 @@ dependencies:
   flutterfire_ui: ^0.4.3+20
   google_sign_in: ^5.4.4
   animated_splash_screen: ^1.2.0
+  flutter_signin_button: ^2.0.0
 
 dev_dependencies:
   flutter_test:
