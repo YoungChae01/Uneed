@@ -44,6 +44,8 @@ dependencies:
   google_sign_in: ^5.4.4
   animated_splash_screen: ^1.2.0
   flutter_signin_button: ^2.0.0
+  table_calendar: ^3.0.8
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
